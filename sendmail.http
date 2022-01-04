@@ -1,0 +1,7 @@
+POST http://localhost:4000/api/sendmail
+Content-Type: application/json
+
+{
+    "email" : "chayakorn.f.ch@gmail.com",
+    "message" : "Test 1234"
+}
